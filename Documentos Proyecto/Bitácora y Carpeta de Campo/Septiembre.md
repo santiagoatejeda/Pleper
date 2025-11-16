@@ -9,6 +9,8 @@
 
 -  Victor Raul Broncano: Obtencion del cemento de contacto para adherir los elementos de la estructura. Tambien nos comunicamos con Elemon, sobre el abono de componentes y elementos de trabajo.
 
+-  Ignacio garcia Louzan: Comence con la planificación de un sistema más complejo: medir simultáneamente la tensión de la baldosa y la de una batería LiPo. Esto implicó analizar dos divisores resistivos separados y evaluar cómo usar dos canales ADC sin que las mediciones se contaminen entre sí. Se discutieron alternativas, se evaluó la carga de procesamiento y se definió la estructura general del sistema doble.
+
 ---
 
 ## 📅 2️⃣ Semana (Lunes 8 - Viernes 12)
