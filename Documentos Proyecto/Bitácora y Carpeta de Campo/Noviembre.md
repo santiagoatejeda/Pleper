@@ -14,6 +14,8 @@
 
 - Santiago Tejeda: Estuve probando las conexiones de las baldosas entre sí. Ayudé con el armado de la estructura para la exposición, ya que tuvimos problemas para colocar la caja de placas sobre el tubo PVC, también con la alimentación de la raspberry pi 2w que solucionamos alimentandola con un powerbank royalcell.
 
+- Ignacio Garcia Louzan: Esta semana se dedicó a pulir detalles: revisar la web, mejorar animaciones, asegurar que el servidor web funcionara de forma fluida y hacer pruebas completas. Durante la feria expliqué el funcionamiento técnico a visitantes, profesores y evaluadores. Surgieron preguntas interesantes sobre inflamabilidad, materiales alternativos, funcionamiento de la etapa rectificadora y visualización en tiempo real. El sistema funcionó correctamente durante toda la exposición.
+
 ---
 
 ## 📅 3️⃣ Semana (Lunes 17 - Viernes 21)
