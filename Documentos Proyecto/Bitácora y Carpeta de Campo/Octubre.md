@@ -33,7 +33,7 @@
 
 -  Mauricio Blasco: Esta semana me encargue de medir la tensión tanto en la salida del circuito como en la salida de los grupos de piezoeléctricos, midiendo con uno, dos, tres y cuatro topes en un grupo y con un tope en cada esquina.
 
--  Ignacio Garcia: Esta semana empece con el codigo del proyecto. El mismo se encargaria de mostrar el porcentaje de carga del capacitor en un display LCD (con i2c incluido) y, ademas, mediante el uso de una pagina web las personas podrian ver en sus dispositivos como se carga en tiempo real el capacitor. La idea de esta semana es probar la parte del codigo para el display con el lenguaje de programacion Python. Actualizacion: El codigo llego a funcionar pero, al usar una raspberry pi pico 2W, no leia bien la informacion que le llegaba y por lo tranto no se mostraba lo que buscaba en el display. La proxima semana continuo con el codigo, pero ahora con el uso de la extension de VScode, conocida como Platformio.
+-  Ignacio Garcia: Esta semana hubieron varios problemas. Primero supimos que la bateria Lipo nunca iba a aguantar la alimentacion de pi pico 2W debido a que la bateria Lipo podia llegar a alimentar hasta 4,1V mientras que la pi pico 2W necesitaba 5V para una buena alimentacion. Basicamente, con la lipo podiamos prender el display pero ya cosas como la parte web le exigian de mas. Ademas, quisimos reemplazar la bateria por una de mayor voltaje pero el modulo de carga empezo a tirar errores de falso contacto, cosa que retrocedio el avance que estabamos llevando. Al final cambiamos la bateria y su modulo de carga por una bateria portatil que asegura la alimentacion de la pico y al mismo tiempo no requierede un modulo de carga.
 
 - Victor Raul Broncano: Compra de segundo tacho de cemento de contacto, recorte y pegado de la alfombra que recubre la baldosa de caucho y la base de madera.  
 
@@ -46,7 +46,7 @@
 
 -  Mauricio Blasco: Esta semana me encargue de medir el tiempo de los pulsos generado por los piezoeléctricos con el objetivo de saber si el problema de la carga de los capacitores podría ser por la corta duración de estos, lo cual terminamos confirmando. También me encargue de comprar algunos componentes que requeríamos para seguir avanzando, los cuales eran 2 resistencias de 4,7 Mohm y dos tiras de 40 pines. Tambien medí la corriente en la salida del circuito tanto sin topes como con uno, dos, tres y cuatro topes. Por ultimo actualize con algunas mejoras el banner del proyecto para luego enviarlo.
 
--  Ignacio Garcia: Esta semana, como comente anteriormente, continue con el codigo pero ahora con el uso de la extension de VScode conocida como Platformio. Probe de la misma manera que con Python (primero hacer que funcione la parte del codigo del display) pero otra vez no tuve exito debido a que Platformio no funcionaba con Raspberrys pi picos Wifi (solo con raspberry pi pico y ahi). Es por eso que pase el codigo a C (mediante una extension de raspberry pi pico en VScode) y ahi empezo a funcionar. Ahora faltaria hacer la parte web del codigo.
+-  Ignacio Garcia: 
 
 - Victor Raul Broncano: Compra y lijado de grampas para mantener el fijo verticalmente el tubo de PVC. En este tubo van a pasar los cables que iran dirigido a la caja de placas. Tambien repare las conexiones desoldadas de los sensores piezoelectricos
 
