@@ -34,6 +34,8 @@ Con la ayuda de los resortes y los pilares logré este objetivo: los resortes se
 
 - Victor Raul Borncano: Distribui y pegue los topes de caucho a la base de madera, y pegar los piezoelectricos arriba de los topes. Calculo de tamaño y colocacion de muelles para evitar que los resortes se desacomoden.
 
+- Ignacio Garcia Louzan: Esta semana logré integrar ambas mediciones (baldosa + batería) al código. Sin embargo, no fue facil. El ADC devolvía lecturas ruidosas porque estaba cambiando de canal sin esperar el tiempo adecuado. También la página web mostraba los valores con retraso porque estaba procesando demasiado en cada actualización. Fue una semana de depuración, pero al final ambas lecturas quedaron estables.
+
 ---
 
 ## 📅 4️⃣ Semana (Lunes 22 - Viernes 26)
