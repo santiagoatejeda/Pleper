@@ -16,17 +16,8 @@
 
 ---
 
-## Documentos principales
-- **Anteproyecto PLEPER.docx** → Documento base del proyecto: idea, objetivos y justificación.  
-- **Carpeta Técnica.docx** → Desarrollo técnico, esquemas, cálculos y simulaciones.  
-- **Manual de Usuario.docx** → Instrucciones de uso del prototipo, instalación y seguridad.  
----
-
-
-
-
-
 ## Herramientas utilizadas
 - Microsoft Word y PowerPoint  
 - Canva (diseño visual del material)  
-- Google Drive para control de versiones  
+- Google Drive
+- Excel 
