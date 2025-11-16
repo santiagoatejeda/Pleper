@@ -27,7 +27,7 @@ float pico_actual = 0.0f;
 bool congelado = false;
 absolute_time_t tiempo_limite;
 
-/* =========================================================== */
+// ------------------ Leer voltaje ADC con divisor ------------------
 
 float leer_voltaje(uint adc_num) {
     adc_select_input(adc_num);    
@@ -220,7 +220,7 @@ const char html[] =
 
         http_send(tpcb, html);
     }
-
+  
     pbuf_free(p);
     return ERR_OK;
 }
@@ -264,7 +264,7 @@ int main() {
     lcd_init(i2c1, 0x27);
 
     adc_init();
-    adc_gpio_init(ADC_WEB); // ADC0
+    adc_gpio_init(ADC_WEB); // ADC0 → WEB
     adc_gpio_init(ADC_LCD); // GP27 → ADC1
 
     if (cyw43_arch_init()) {
@@ -317,9 +317,9 @@ int main() {
         if (absolute_time_diff_us(ultimo, get_absolute_time()) > 500000) {
             ultimo = get_absolute_time();
 
-            float v_lcd = leer_voltaje(0);   // <<< ahora lee ADC0 correctamente
+            float v_lcd = leer_voltaje(0);   // ahora lee ADC0
 
-            v_lcd *= 3.0f;
+            
 
             if (!congelado) {
                 valor_mostrado = v_lcd;
