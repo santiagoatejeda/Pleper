@@ -9,7 +9,7 @@
 
 -  Victor Raul Broncano: Obtencion del cemento de contacto para adherir los elementos de la estructura. Tambien nos comunicamos con Elemon, sobre el abono de componentes y elementos de trabajo.
 
--  Ignacio garcia Louzan: Comence con la planificación de un sistema más complejo: medir simultáneamente la tensión de la baldosa y la de una batería LiPo. Esto implicó analizar dos divisores resistivos separados y evaluar cómo usar dos canales ADC sin que las mediciones se contaminen entre sí. Se discutieron alternativas, se evaluó la carga de procesamiento y se definió la estructura general del sistema doble.
+-  Ignacio Garcia Louzan: Comence con la planificación de un sistema más complejo: medir simultáneamente la tensión de la baldosa y la de una batería LiPo. Esto implicó analizar dos divisores resistivos separados y evaluar cómo usar dos canales ADC sin que las mediciones se contaminen entre sí. Se discutieron alternativas, se evaluó la carga de procesamiento y se definió la estructura general del sistema doble.
 
 ---
 
@@ -45,6 +45,8 @@ Con la ayuda de los resortes y los pilares logré este objetivo: los resortes se
 -  Santiago Tejeda: Esta semana me encargué específicamente del armado de los piezoeléctricos en la baldosa, ubicándolos junto a unas tarimas de caucho que habían sobrado. Además, realicé el pegado de los mismos a la estructura y su correspondiente cableado de forma prolija con silicona, para luego conectarlos en las borneras de la placa rectificadora, cual diseñé en la misma semana.
 
 -  Victor Raul Broncano: Compre, corte y lije la placa de cobre para despues limpiar la placa, imprimi las conexiones del banco de capacitores. Despues plancahe y puse la placa en acido.
+
+-  Ignacio Garcia Louzan: Etsa semana organicé todo el código en funciones bien estructuradas, lo que mejoró la legibilidad y el mantenimiento. Separé las tareas de lectura, conversión, actualización del LCD y envío a la web. Esta reorganización facilitó todo lo que vendría mas adelante.
 
 ---
 
