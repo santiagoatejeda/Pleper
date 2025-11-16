@@ -46,7 +46,7 @@
 
 -  Mauricio Blasco: Esta semana me encargue de medir el tiempo de los pulsos generado por los piezoeléctricos con el objetivo de saber si el problema de la carga de los capacitores podría ser por la corta duración de estos, lo cual terminamos confirmando. También me encargue de comprar algunos componentes que requeríamos para seguir avanzando, los cuales eran 2 resistencias de 4,7 Mohm y dos tiras de 40 pines. Tambien medí la corriente en la salida del circuito tanto sin topes como con uno, dos, tres y cuatro topes. Por ultimo actualize con algunas mejoras el banner del proyecto para luego enviarlo.
 
--  Ignacio Garcia: 
+-  Ignacio Garcia: Durante esta semana documente gran parte de lo que hice hasta el momento.
 
 - Victor Raul Broncano: Compra y lijado de grampas para mantener el fijo verticalmente el tubo de PVC. En este tubo van a pasar los cables que iran dirigido a la caja de placas. Tambien repare las conexiones desoldadas de los sensores piezoelectricos
 
