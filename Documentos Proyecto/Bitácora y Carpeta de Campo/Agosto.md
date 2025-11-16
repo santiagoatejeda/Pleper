@@ -10,6 +10,8 @@
 -  Victor Raul Broncano: Medidas y recorte del caucho que va a ser la baldosa. Esta baldosa la recotamos a una medida de 42cm*42cm ya que va a ir junto a una madera de la misma medida.
 
 -  Maurcio Blasco: comienzo a diseñar un modelo 3D en autocad del diseño de la baldosa en el moemento, diseñando de la forma mas eficiente la estructura.
+
+-  Ignacio Garcia Louzan: Empecé a consolidar el código en C para medir la tensión del capacitor y mostrarla en el LCD. Organicé mejor las funciones para que cada una cumpla un rol claro: leer el ADC, convertir a voltaje y porcentaje, y mostrar en pantalla. También inicié la implementación del sistema para detectar picos de tensión, que más adelante sería clave para mostrar valores máximos. Apareció un error común: los picos se reiniciaban solos porque estaba usando una variable local que se reinicializaba en cada ciclo, lo que me obligó a reorganizar las variables globales.
 ---
 
 ## 📅 2️⃣ Semana (Lunes 11 - Viernes 15)
