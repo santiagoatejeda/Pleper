@@ -10,7 +10,7 @@
 ## 📅 2️⃣ Semana (Lunes 10 - Viernes 14)
 
 - Santiago Tejeda: Me dediqué a el prototipado de la etapa rectificadora junto a los sensores, midiendo con un osciloscopio su correcto funcionamiento. Primero probé un puente rectificador de onda completa con diodos 1N4007 que al tener mucha caida de tensión habían más pérdidas que tensión generada, por lo que opté por usar los diodos schottky 1n5819 que tienen una caída mucho menor, siendo esta de 0,3V.
-- Ignacio Garcia Louzan: 
+- Ignacio Garcia Louzan: Esta semana me concentré en instalar y configurar el entorno de trabajo: VS Code, SDK de Raspberry Pi Pico, toolchain y librerías necesarias. Fue bastante complejo porque aparecieron varios errores al compilar, especialmente por la falta del archivo lwipopts.h y por rutas mal configuradas en CMakeLists.txt. Después de resolverlo, escribí el primer programa en C para probar el ADC usando el pin 26, logrando leer valores crudos. Durante las pruebas, las lecturas eran inestables, y descubrí que era porque el prototipo no tenía una masa común bien conectada. También aprendí que había que seleccionar correctamente el canal ADC antes de leer, porque si no la Pico devolvía valores repetidos o ruidosos.
 
 ---
 
