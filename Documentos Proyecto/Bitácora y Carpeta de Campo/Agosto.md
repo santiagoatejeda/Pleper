@@ -37,6 +37,8 @@
 - Victor Raul Broncano: Medidas para la colocacion y corte de las bases de cauchos para los sensores piezoelectricos. Estos permiten que, cuando una persona pise la placa, los sensores lleguen a tener contacto con la baldosa.
 
 - Mauricio Blasco: Investigue que medidas de resortes requeriamos para el correcto funcionamiento del circuito, y contacte con Resortecnica en busca de ayuda con informacion sobre los resortes.
+
+- Ignacio Garcia Louzan: Comencé a diseñar seriamente la interfaz web de PLEPER. Agregué un fondo visual, secciones organizadas, tipografías más modernas y el video introductorio. Implementé también el sistema del menú que aparece al scrollear hacia arriba, pero únicamente en computadoras. Este detalle fue importante para mejorar la experiencia de usuario. Algunos problemas surgieron al intentar reproducir el video automáticamente y al ajustar el comportamiento responsive entre móviles y PC.
 ---
 
 ## 📅 4️⃣ Semana (Lunes 25 - Viernes 29)
