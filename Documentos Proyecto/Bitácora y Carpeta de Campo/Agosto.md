@@ -23,6 +23,8 @@
 
 -  Victor Raul Broncano: calculo y colocacion de piezoelectricos. Tambien relice mediciones y pruebas con los resortes probando como se comporta con el peso de una persona. Estas mediciones las realizamos poniendo los cuatro resortes abajo de la madera que va a ser la baldosa.
 -  Mauricio Blasco: ternino de diseñar el modelo 3D de la baldosa en autocad, ademas de agregarle las texturas con el objetivo de hacerlo mas realista.
+
+-  Ignacio Garcia Louzan: Esta semana inicié oficialmente la parte del servidor web integrado en la Raspberry Pi Pico 2W. Pude servir una página HTML sencilla con valores extraídos del ADC. Configuré la conexión WiFi de la Pico para que se conectara automáticamente a la red. Durante esta semana aparecieron varios errores: la Pico se reiniciaba constantemente por no ejecutar correctamente cyw43_arch_init(), y el HTML dentro del código C se rompía por no escapar ciertos caracteres. Fue la primera vez que el proyecto logró combinar hardware y conectividad.
 ---
 
 ## 📅 3️⃣ Semana (Lunes 18 - Viernes 22)
