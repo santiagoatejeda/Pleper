@@ -5,6 +5,8 @@
 
 - Santiago Tejeda: Me encargué de conseguir la placa de madera de pino de 42x42 que sería la base de la segunda baldosa. También estuve armando la segunda baldosa que a comparación de la primera va a tener una conexión en serie a modo de sumar sus tensiones pico, al ser de 16 piezoeléctricos armé 4 grupos en serie, que luego de sus conexiones fueron a una nueva placa rectificadora de 4 borneras y  de salida. Llegó a generar unos picos de 15V en su salida común.
 
+- Ignacio Garcia Louzan: Esta semana tuve problemas con la memoria de la pico, especificamente con su apartado HTML. Yo queria que en la web que se muestra en tiempo real los picos de tension, tambien este el grafico pero con todas sus especificaciones y detalles tecnicos dentro pero el problema era que la pico almacenaba y distribuia su memoria en funcion de su conveniencia. Que quiere decir esto? Que si aparecia el grafico con sus especificaciones y detalles tecnicos, los picos de tension superiores a 1V no se congelaban (y por lo tanto las pisadas de las personas se mostraban cada 0.5 segundos y pasaban desapercibidos con el ruido) y si forzaba el congelamiento de los picos de tension, el grafico se mostraba sin las especificaciones y detalles tecnicos. Finalmente, deje el grafico en un estado basico pero igualmente interactivo para las personas.
+
 ---
 
 ## 📅 2️⃣ Semana (Lunes 10 - Viernes 14)
