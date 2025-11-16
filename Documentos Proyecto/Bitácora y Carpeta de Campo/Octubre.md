@@ -22,6 +22,8 @@
 
 - Victor Raul Broncano: Ir a comprar al Easy el tubo de PVC y recortarlo para facilitar su transporte. También contactar con Elemon e ir a su sede en Villa Urquiza para la abonacion de distintos componentes.
 
+- Ignacio Garcia Louzan: Esta semana incluí el diseño de la caja donde iría todo el circuito y la pared donde se colocaría el cartel de emergencia.
+
 ---
 
 ## 📅 3️⃣ Semana (Lunes 13 - Viernes 17)
