@@ -20,6 +20,8 @@
 
 -  Victor Raul Broncano:  Perforar la base de madera de la estructura en donde ban a ir los colocados los sensores piezoelectricos. Y tambien pegamos las dos partes de la baldosa, la de madera con la de caucho, haciendo que coincidan las perforaciones de ambas partes.
 
+-  Ignacio Garcia Louzan: Dediqué la semana a investigar los módulos TP4056 con y sin protección. Tuve que entender cómo funcionaba la protección contra sobrecarga, sobredescarga y cortocircuitos. También aprendí que el conector USB del TP4056 sirve únicamente para cargar la batería, no para alimentar la Raspberry directamente. Este descubrimiento resolvió varias dudas que teníamos sobre la alimentación del sistema cuando no hubiera computadora.
+
 ---
 
 ## 📅 3️⃣ Semana (Lunes 15 - Viernes 19)
