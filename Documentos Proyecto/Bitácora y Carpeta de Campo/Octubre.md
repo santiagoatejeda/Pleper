@@ -9,6 +9,8 @@
 
 -  Victor Raul Broncano: Probe la continuidad del banco de capacitores, agujerie la placa y solde los componentes. Armamos la estractura de la baldosa, comprobando su resitencia y como reacciona con las personas caminando por encima.
 
+-  Ignacio Garcia Louzan: Durante esta semana reescribí casi todo el front-end del sitio PLEPER. Implementé un sidebar exclusivo para móviles, transiciones suaves, efectos de fade in/fade out, fondo animado y una sección de sponsors con rotación automática cada 5 segundos. También corregí el script del menú que aparece en desktop al scrollear hacia arriba. Hubo inconvenientes de centrado y de animaciones que desaparecían de golpe, pero se resolvieron.
+
 ---
 
 ## 📅 2️⃣ Semana (Lunes 6 - Viernes 10)
