@@ -52,7 +52,7 @@ static err_t recv_cb(void *arg, struct tcp_pcb *tpcb, struct pbuf *p, err_t err)
     if (!p) { tcp_close(tpcb); return ERR_OK; }
     char *req = p->payload;
 
-    // -------- /adc --------
+    // -------- adc --------
     if (strstr(req, "GET /adc")) {
 
         float v = valor_mostrado;
