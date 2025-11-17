@@ -48,6 +48,8 @@ Con la ayuda de los resortes y los pilares logré este objetivo: los resortes se
 
 -  Ignacio Garcia Louzan: Etsa semana organicé todo el código en funciones bien estructuradas, lo que mejoró la legibilidad y el mantenimiento. Separé las tareas de lectura, conversión, actualización del LCD y envío a la web. Esta reorganización facilitó todo lo que vendría mas adelante.
 
+- Isidro Stabile: Esta semana diseñe el boceto de lo que sera la parte de la caja donde iran el display y la Raspberry Pi Pico 2W, y el tubo PVC que lo sostendra.
+
 ---
 
 🧾 **Observaciones generales del mes:**  
